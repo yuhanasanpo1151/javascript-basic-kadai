@@ -1,9 +1,9 @@
 const today = new Date();
 
 const year = today.getFullYear();
-const month = today.getMonth();
+const month = today.getMonth()+ 1;
 const day = today.getDate();
 
-const formattedDate = `${2024}年${10}月${12}日`;
+const formattedDate = `${year}年${month}月${day}日`;
 
 console.log(formattedDate);
